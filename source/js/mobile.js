@@ -63,7 +63,7 @@
 		document.getElementsByTagName("body")[0].appendChild($viewer);
 		var wrap = document.getElementById("viewer-box");
 		this.wrap = wrap;
-		wrap.style.height = document.body.scrollHeight + 'px';
+		//wrap.style.height = document.body.scrollHeight + 'px';
 	};
 
 	Mobile.prototype.show = function(target, idx){

@@ -18,5 +18,5 @@ git pull
 
 # 配置
 
-1、修改hexo根目录下的 `_config.yml` ： `theme: yilia`。
+1、修改hexo根目录下的 `_config.yml` ： `theme: yilia`。   
 2、主题配置文件在主目录下的`_config.yml`。
