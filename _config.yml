@@ -1,0 +1,54 @@
+# Header
+menu:
+  主页: /
+  归档: /archives
+  关于: /about
+  # 随笔: /tags/随笔
+
+# SubNav
+subnav:
+  github: "http://github.com/voidking"
+  weibo: "http://weibo.com/378920304"
+  rss: "/atom.xml"
+  #zhihu: "#"
+  #douban: "#"
+  #mail: "#"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
+rss: /atom.xml
+
+# Content
+excerpt_link: more
+fancybox: true
+mathjax: true
+
+# Miscellaneous
+google_analytics: ''
+favicon: /favicon.png
+
+#你的头像url
+avatar: "/img/headportrait.jpg"
+#是否开启分享
+share: true
+#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
+duoshuo: voidking
+#是否开启云标签
+tagcloud: true
+
+#是否开启友情链接
+#不开启——
+#friends: false
+#开启——
+friends:
+  MYDEMO: http://demo.voidking.com
+  twiceYuan: http://twiceyuan.com
+
+#是否开启“关于我”。
+#不开启——
+#aboutme: false
+#开启——
+aboutme: 虽然还没想好怎么夸自己，但总觉得这里放点东西比较和谐。。。
