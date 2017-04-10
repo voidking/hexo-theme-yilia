@@ -33,9 +33,13 @@ favicon: /favicon.png
 avatar: "/img/headportrait.jpg"
 #是否开启分享
 share: true
-#是否开启多说评论，填写你在多说申请的项目名称 duoshuo: duoshuo-key
-#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭多说评论
-duoshuo: voidking
+
+#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭畅言评论
+#是否开启畅言
+changyan: true
+#畅言配置
+changyan_appid: cysWhqyBA
+changyan_conf: prod_70a7c6726f8fb069371c076ad7716ec5
 #是否开启云标签
 tagcloud: true
 
