@@ -23,7 +23,6 @@ rss: /atom.xml
 # Content
 excerpt_link: more
 fancybox: true
-mathjax: true
 
 # Miscellaneous
 google_analytics: ''
@@ -50,6 +49,7 @@ tagcloud: true
 friends:
   MYDEMO: http://demo.voidking.com
   twiceYuan: http://twiceyuan.com
+  Alliot's Blog: http://www.iots.vip
 
 #是否开启“关于我”。
 #不开启——
