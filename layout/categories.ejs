@@ -1,22 +1,20 @@
 <article class="article article-type-post show">
-  <header class="article-header">
+  <header class="article-header" style="border-bottom: 1px solid #ccc">
   <h1 class="article-title" itemprop="name">
     <%= page.title %>
   </h1>
   </header>
 
   <% if (site.categories.length){ %>
-  <div class="category-all-page article-type-post show">
-    <h3>共计&nbsp;<%= site.categories.length %>&nbsp;个分类</h3>
-    <ul class="category-list">
-    <% site.categories.sort('name').each(function(item){ %>
-      <% if(item.posts.length){ %>
-        <li class="category-list-item">
-          <a href="<%- config.root %><%- item.path %>" title="<%= item.name %>"><%= item.name %><sup>[<%= item.posts.length %>]</sup></a>
-        </li>
-      <% } %>
-    <% }); %>
-    </ul>
+  <div class="category-all-page">
+    <h2>共计&nbsp;<%= site.categories.length %>&nbsp;个分类</h2>
+    <%- list_categories(site.categories, {
+      show_count: true,
+      class: 'category-list-item',
+      style: 'list',
+      depth: 2,
+      separator: ''
+    }) %>
   </div>
   <% } %>
 </article>
