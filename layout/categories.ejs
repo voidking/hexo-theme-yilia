@@ -1,0 +1,27 @@
+<article class="article article-type-post show">
+  <header class="article-header">
+  <h1 class="article-title" itemprop="name">
+    <%= page.title %>
+  </h1>
+  </header>
+
+  <% if (site.categories.length){ %>
+  <div class="category-all-page article-type-post show">
+    <h3>共计&nbsp;<%= site.categories.length %>&nbsp;个分类</h3>
+    <ul class="category-list">
+    <% site.categories.sort('name').each(function(item){ %>
+      <% if(item.posts.length){ %>
+        <li class="category-list-item">
+          <a href="<%- config.root %><%- item.path %>" title="<%= item.name %>"><%= item.name %><sup>[<%= item.posts.length %>]</sup></a>
+        </li>
+      <% } %>
+    <% }); %>
+    </ul>
+  </div>
+  <% } %>
+</article>
+
+
+
+
+
