@@ -36,10 +36,20 @@ share: true
 
 #若使用disqus，请在博客config文件中填写disqus_shortname，并关闭畅言评论
 #是否开启畅言
-changyan: true
+#changyan: true
 #畅言配置
-changyan_appid: cysWhqyBA
-changyan_conf: prod_70a7c6726f8fb069371c076ad7716ec5
+#changyan_appid: cysWhqyBA
+#changyan_conf: prod_70a7c6726f8fb069371c076ad7716ec5
+
+# 配置gitalk
+gitalk: 
+  enable: true
+  client_id: 5a238b8c32b1e4dd2156
+  client_secret: bfb5d518626f6fdc7da0351d1e0cd37ab75c6361
+  repo: voidking.github.io
+  owner: voidking
+  admin: voidking
+
 #是否开启云标签
 tagcloud: true
 

@@ -30,4 +30,9 @@
   <% } %>
   <%- css('css/style') %>
   <script src="https://libs.baidu.com/jquery/1.9.0/jquery.js"></script>
+  <% if (theme.gitalk.enable){ %>
+    <link rel="stylesheet" href="/lib/gitalk/gitalk.css">
+    <script src="/lib/gitalk/gitalk.min.js"></script>
+    <script src="/lib/gitalk/md5.min.js"></script>
+  <% } %>
 </head>
