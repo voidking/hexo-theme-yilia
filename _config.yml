@@ -43,12 +43,17 @@ share: true
 
 # 配置gitalk
 gitalk: 
-  enable: true
+  enable: false
   client_id: 5a238b8c32b1e4dd2156
   client_secret: bfb5d518626f6fdc7da0351d1e0cd37ab75c6361
   repo: voidking.github.io
   owner: voidking
   admin: voidking
+
+# livere配置
+livere: 
+  enable: true
+  uid: MTAyMC8zODU3Mi8xNTEwMA==
 
 #是否开启云标签
 tagcloud: true

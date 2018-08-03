@@ -65,8 +65,16 @@
   }) %>
 <% } %>
 
-<% if (!index && theme.gitalk && post.comments){ %>
+<% if (!index && theme.gitalk.enable && post.comments){ %>
 <%- partial('post/gitalk', {
+    key: post.slug,
+    title: post.title,
+    url: config.url+url_for(post.path)
+  }) %>
+<% } %>
+
+<% if (!index && theme.livere.enable && post.comments){ %>
+<%- partial('post/livere', {
     key: post.slug,
     title: post.title,
     url: config.url+url_for(post.path)
