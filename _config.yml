@@ -63,8 +63,11 @@ tagcloud: true
 #friends: false
 #开启——
 friends:
-  MYDEMO: http://demo.voidking.com
-  twiceYuan: http://twiceyuan.com
+  VoidKing: http://www.voidking.com
+  简书: http://www.jianshu.com/u/9f179465dd2b
+  SegmentFault: https://segmentfault.com/blog/voidking
+  博客园: http://www.cnblogs.com/voidking
+  CSDN: http://blog.csdn.net/c0416
   Alliot's Blog: http://www.iots.vip
 
 #是否开启“关于我”。
