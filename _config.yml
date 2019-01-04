@@ -41,7 +41,7 @@ share: true
 #changyan_appid: cysWhqyBA
 #changyan_conf: prod_70a7c6726f8fb069371c076ad7716ec5
 
-# 配置gitalk
+# gitalk
 gitalk: 
   enable: false
   client_id: 5a238b8c32b1e4dd2156
@@ -50,18 +50,24 @@ gitalk:
   owner: voidking
   admin: voidking
 
-# livere配置
+# livere
 livere: 
   enable: true
   uid: MTAyMC8zODU3Mi8xNTEwMA==
+
+# 百度统计
+baidustatistic:
+  enable: true
+  siteid: b759ac2a7fa45129e3ef060bf68259f0
+
 
 #是否开启云标签
 tagcloud: true
 
 #是否开启友情链接
-#不开启——
+#不开启
 #friends: false
-#开启——
+#开启
 friends:
   VoidKing: http://www.voidking.com
   简书: http://www.jianshu.com/u/9f179465dd2b
@@ -71,7 +77,7 @@ friends:
   Alliot's Blog: http://www.iots.vip
 
 #是否开启“关于我”。
-#不开启——
+#不开启
 #aboutme: false
-#开启——
+#开启
 aboutme: 虽然还没想好怎么夸自己，但总觉得这里放点东西比较和谐。。。
