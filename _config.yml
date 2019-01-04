@@ -1,10 +1,10 @@
-# Header
+# Nav
 menu:
   主页: /
   分类: /categories
   归档: /archives
   关于: /about
-  # 随笔: /tags/随笔
+  #随笔: /tags/随笔
 
 # SubNav
 subnav:
@@ -19,27 +19,19 @@ subnav:
   #twitter: "#"
   #linkedin: "#"
 
-rss: /atom.xml
+# 网站图标
+favicon: /favicon.png
+
+# 头像
+avatar: "/img/headportrait.jpg"
 
 # Content
 excerpt_link: more
 fancybox: true
+tagcloud: true
 
-# Miscellaneous
-google_analytics: ''
-favicon: /favicon.png
-
-#你的头像url
-avatar: "/img/headportrait.jpg"
-#是否开启分享
+# 分享
 share: true
-
-#若使用disqus，请在博客config文件中填写disqus_shortname，并关闭畅言评论
-#是否开启畅言
-#changyan: true
-#畅言配置
-#changyan_appid: cysWhqyBA
-#changyan_conf: prod_70a7c6726f8fb069371c076ad7716ec5
 
 # gitalk
 gitalk: 
@@ -61,13 +53,9 @@ baidustatistic:
   siteid: b759ac2a7fa45129e3ef060bf68259f0
 
 
-#是否开启云标签
-tagcloud: true
-
-#是否开启友情链接
-#不开启
+#关闭友链
 #friends: false
-#开启
+#开启友链
 friends:
   VoidKing: http://www.voidking.com
   简书: http://www.jianshu.com/u/9f179465dd2b
@@ -76,8 +64,5 @@ friends:
   CSDN: http://blog.csdn.net/c0416
   Alliot's Blog: http://www.iots.vip
 
-#是否开启“关于我”。
-#不开启
-#aboutme: false
-#开启
+#开启关于我
 aboutme: 虽然还没想好怎么夸自己，但总觉得这里放点东西比较和谐。。。
